@@ -2,15 +2,15 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.5'
+VERSION = '0.0.6'
 DESCRIPTION = 'A simple discord rank card written in python.'
 LONG_DESCRIPTION = open("README.md").read()
 
 # Setting up
 setup(
-    name="Python-discord-rankcard",
+    name="rankcard",
     version=VERSION,
-    author="yangman946",
+    author="Tosin Kuye",
     author_email="clarenceyang284@gmail.com",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",

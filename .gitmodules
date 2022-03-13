@@ -1,0 +1,3 @@
+[submodule "Python-discord-rankcard"]
+	path = Python-discord-rankcard
+	url = https://github.com/akoses/Python-discord-rankcard.git

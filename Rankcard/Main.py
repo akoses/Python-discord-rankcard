@@ -2,7 +2,7 @@
 
 import requests
 import os
-from PIL import Image, ImageFont, ImageOps, ImageDraw
+from PIL import Image, ImageFont, ImageDraw
 from io import BytesIO
 
 class RANKCARD():
@@ -42,7 +42,7 @@ class RANKCARD():
         d.text((260, 100),username,(255,255,255), font=font)
         d.text((740, 130),f"{current_xp}/{next_level_xp} XP",(255,255,255), font=font2)
         d.text((650, 50),f"LEVEL {level}",xp_color, font=font)
-        d.text((260, 50),f"RANK #{rank}",(255,255,255), font=font2)
+        d.text((260, 50),f"{rank}",(255,255,255), font=font2)
 
 
         # save image
